@@ -3,6 +3,7 @@
     "type": "library",
     "description": "IMAP ➝ SQL syncing engine",
     "keywords": [],
+    "license": "MIT",
     "homepage": "https://github.com/netandreus/libremail/tree/packagist/sync",
     "authors": [
         {

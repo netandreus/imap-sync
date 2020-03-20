@@ -1,4 +1,20 @@
 {
+    "name": "netandreus/sync",
+    "type": "library",
+    "description": "IMAP ➝ SQL syncing engine",
+    "keywords": [],
+    "license": "MIT",
+    "homepage": "https://github.com/netandreus/libremail/tree/packagist/sync",
+    "authors": [
+        {
+            "name": "Mike Gioia",
+            "email": "mike@teachboost.com"
+        },
+        {
+            "name": "Andrey Tokarchuk",
+            "email": "netandreus@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "src/",

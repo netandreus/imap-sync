@@ -1,0 +1,78 @@
+/**
+ * Dropdowns
+ *
+ * z-index range: 10-20
+ */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > a,
+.dropdown > button {
+  position: relative;
+}
+
+.dropdown ul {
+  background-color: #161616;
+  border: 1px solid #060606;
+  border-radius: 0 0.25rem 0.25rem 0.25rem;
+  color: #ddd;
+  display: none;
+  list-style-type: none;
+  min-width: 16rem;
+  padding: 0.25rem 0;
+  position: absolute;
+  top: calc(3rem - 1px);
+  z-index: 10;
+}
+
+.dropdown ul.right-menu {
+  border-radius: 0.25rem 0 0.25rem 0.25rem;
+  right: 0;
+}
+
+.dropdown > a:focus,
+.dropdown > button:focus {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  z-index: 11;
+}
+
+.dropdown > a:focus + ul,
+.dropdown > button:focus + ul,
+.dropdown ul:hover {
+  display: block;
+}
+
+.dropdown > a:focus + ul,
+.dropdown > button:focus + ul {
+  border-color: #060606;
+}
+
+.dropdown > button:focus i.icon-cog {
+  top: 0.1rem;
+}
+
+.dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li a {
+  background: #161616;
+  border: none;
+  border-radius: 0;
+  color: #ddd;
+  display: block;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0.25rem 1rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  background-color: #555;
+}

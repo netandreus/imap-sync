@@ -1,0 +1,32 @@
+section.status-message {
+  background-color: #1d8fb3;
+  margin: 4rem auto;
+  max-width: 60rem;
+  min-width: 40rem;
+  padding: 1rem 1.25rem;
+  width: 60%;
+}
+
+section.status-message.error {
+  background-color: red;
+}
+
+section.status-message h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+section.status-message .suggestion {
+  background-color: rgba(0, 0, 0, 0.25);
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+section.status-message .recheck {
+  margin-top: 2rem;
+}
+
+section.status-message button {
+  margin-bottom: 0;
+}

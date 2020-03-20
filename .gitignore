@@ -1,0 +1,9 @@
+bin
+logs/*
+!logs/.gitkeep
+build
+vendor
+test.php
+.DS_Store
+attachments
+node_modules

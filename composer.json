@@ -1,5 +1,5 @@
 {
-    "name": "netandreus/sync",
+    "name": "netandreus/imap-sync",
     "type": "library",
     "description": "IMAP ➝ SQL syncing engine",
     "keywords": [],
